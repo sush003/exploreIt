@@ -1,0 +1,76 @@
+.section-padding {
+  padding-top: 140px;
+  padding-bottom: 140px;
+}
+
+/* navbaarrrrrrrr............ */
+.navbar {
+  background-color: white;
+}
+.navbar-nav {
+  position: relative;
+  font-size: 18px;
+  margin-right: 20px;
+}
+.navbar-brand img {
+  margin-left: 30px;
+  width: 10em;
+}
+.button {
+    margin-left: 10px;
+  appearance: none;
+  background-color: #2ea44f;
+  border: 1px solid rgba(27, 31, 35, 0.15);
+  border-radius: 6px;
+  box-shadow: rgba(27, 31, 35, 0.1) 0 1px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system, system-ui, "Segoe UI", Helvetica, Arial,
+    sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  padding: 6px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+
+/* heroooooooooooooooooooo .................*/
+
+.hero img{
+    /* justify-content:center; */
+    width: 100%;
+    /* height: 200px; */
+}
+  
+/* initiativessss.................... */
+
+.swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* width: 80px; */
+    height: 10px;
+}
+
+.card {
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+.card img{
+    /* height: 400px; */
+    width: 100%;
+}
